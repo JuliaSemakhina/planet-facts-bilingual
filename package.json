@@ -1,5 +1,6 @@
 {
   "name": "planet-facts",
+   "homepage": "http://JuliaSemakhina.github.io/planet-facts-bilingual",
   "private": true,
   "version": "0.0.0",
   "type": "module",

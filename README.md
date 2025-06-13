@@ -15,7 +15,7 @@
 
 ### Links
 
-- Live Site URL: [link](https://juliasemakhina.github.io/planets-facts-bilingual/)
+- Live Site URL: [link](https://juliasemakhina.github.io/planet-facts-bilingual/)
 
 
 ### Built with
