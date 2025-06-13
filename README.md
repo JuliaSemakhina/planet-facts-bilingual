@@ -60,6 +60,7 @@ const DEFAULT_TAB = "overview";
   useEffect(() => {
     setShowFullText(false);
   }, [activeTab, tabs[activeTab]?.content]); 
+`````
 
 ## Author
 
