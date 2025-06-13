@@ -37,8 +37,7 @@
 - Reseting expanded text depending on opened page and tab
 - Optimizing transition for display: block/none
 
-```
-```
+
 ```css
 .menu {
     transition: opacity 0.35s ease-in-out, display 0.35s ease-in-out;
@@ -60,6 +59,7 @@ const DEFAULT_TAB = "overview";
   useEffect(() => {
     setShowFullText(false);
   }, [activeTab, tabs[activeTab]?.content]); 
+`````
 
 ## Author
 
