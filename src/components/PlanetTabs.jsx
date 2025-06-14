@@ -54,7 +54,7 @@ const PlanetTabs = ({ nameKey }) => {
 
       <div className="tabs-image">
         <img
-          src={tabs[activeTab]?.image}
+          src={import.meta.env.BASE_URL+tabs[activeTab]?.image}
           alt={`${name} ${activeTab}`}
           className="planet-image"
           onError={(e) => e.target.src = '../images/default-planet.png'}
