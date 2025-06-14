@@ -11,7 +11,7 @@
 
 ### Screenshot
 
-[Planet Facts Site Preview (planet info)](../public/images/Planet2.jpg)
+[Planet Facts Site Preview (planet info)](/public/images/Planet2.jpg)
 
 ### Links
 
