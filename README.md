@@ -1,5 +1,5 @@
 ##Planet Facts Bilingual Site (inspired by challenge on Frontend Mentor)
-[Planet Facts Site Preview (home page)](../public/images/Planet1.jpg)
+[Planet Facts Site Preview (home page)](/public/images/Planet1.jpg)
 ## Welcome!👋
 
 
@@ -11,7 +11,7 @@
 
 ### Screenshot
 
-[Planet Facts Site Preview (planet info)](../public/images/Planet2.jpg)
+[Planet Facts Site Preview (planet info)](/public/images/Planet2.jpg)
 
 ### Links
 
