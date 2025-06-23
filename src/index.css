@@ -42,7 +42,9 @@
   --fw-bold: 700;
   --fs-title: clamp(1.35rem, 4vw, 3rem);
   --fs-header: clamp(.85rem, 2vw, 1.5rem);
-  --fs-button: clamp(.75rem, 2vw, 1.25rem);
+  --fs-button: clamp(.75rem, 2vw, 1.25rem);  
+  --fs-numbers: clamp(.65rem, 1vw, .85rem);  
+
 
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -56,9 +58,9 @@
   box-sizing: border-box;
 }
 
-html,
+
 body {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   color: var(--white);
@@ -67,7 +69,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-size: clamp(.75rem, 2vw, 1rem);
+  overflow: auto;
   overflow-x: hidden;
+  /* background-position: center center; */
 }
 
 body {
@@ -480,7 +484,7 @@ button.tab {
 
 .data-items li {
   list-style: none;
-  padding: 1.5rem;
+  padding: 0;
   border: 2px solid var(--primary-blue);
   width: 16rem;
   height: 5rem;
@@ -491,7 +495,7 @@ button.tab {
 }
 
 .data-items .p-title {
-  font-size: .75rem;
+  font-size: var(--fs-numbers);
 }
 
 .data-items .numbers {
@@ -555,6 +559,10 @@ button.tab {
 
 @media screen and (max-width: 550px) {
 
+  body {
+    background-image: url(./images/background-destination-mobile.jpg);
+  }
+
   .languages {
   margin-right: 0rem;
 }
@@ -610,7 +618,9 @@ button.tab {
 
   .data-items li {
     flex-direction: row;
+    padding: 1.5rem;
     justify-content: space-between;
-    width: calc(100vw - 4rem);
+    /* width: calc(100vw - 4rem); */
+    width: 100%;
   }
 }
